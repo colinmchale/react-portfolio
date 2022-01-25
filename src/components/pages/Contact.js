@@ -1,22 +1,36 @@
 import React from 'react';
 
+const styles = {
+  fontColor: {
+    color: '#031927',
+  },
+  headerColor: {
+    color: '#BA1200',
+  },
+  buttonColor: {
+    background: '#BA1200'
+  }
+}
+
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1 style={styles.headerColor}>Contact Me</h1>
+      <form>
+        <div class="form-group">
+          <label for="nameInput" style={styles.fontColor}>Name:</label>
+          <input type="name" className="form-control" id="nameInput" placeholder="name" style={styles.fontColor}/>
+        </div>
+        <div class="form-group">
+          <label for="emailInput" style={styles.fontColor}>Email Address:</label>
+          <input type="email" className="form-control" id="emailInput" placeholder="email@example.com" style={styles.fontColor}/>
+        </div>
+        <div class="form-group">
+          <label for="message" style={styles.fontColor}>Message:</label>
+          <textarea className="form-control" id="message" rows="3" style={styles.fontColor}></textarea>
+        </div>
+        <button type="submit" className="btn text-white mt-2" style={styles.buttonColor}>Submit</button>
+      </form>
     </div>
   );
 }

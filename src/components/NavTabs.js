@@ -1,14 +1,20 @@
 import React from 'react';
 
+const styles = {
+  bgColor: {
+    background: '#c8e0f4',
+  },
+  nameColor: {
+    color: '#508AA8',
+  }
+}
+
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-
-
-      
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h4>Colin McHale</h4>
+    <nav class="navbar navbar-expand-lg navbar-light" style={styles.bgColor}>
+        <h4 style={styles.nameColor}>Colin McHale</h4>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
         <a

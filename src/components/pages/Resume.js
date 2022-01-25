@@ -1,10 +1,19 @@
 import React from 'react';
 
+const styles = {
+  fontColor: {
+    color: '#031927',
+  },
+  headerColor: {
+    color: '#BA1200',
+  }
+}
+
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
-      <p>
+      <h1 style={styles.headerColor}>Resume</h1>
+      <p style={styles.fontColor}>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
         magna a ultrices. Aenean pellentesque placerat lacus imperdiet
