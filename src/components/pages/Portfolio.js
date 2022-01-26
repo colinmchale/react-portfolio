@@ -30,7 +30,7 @@ export default function Portfolio() {
 
     <div className='d-flex flex-wrap text-white'>
     <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={lookBook} alt="LookBook"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={lookBook} alt="LookBook"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">LookBook</h5>
         <p className="card-text">Javascript/SQL/Sequalize/MVC/Express.js/CSS/HTML</p>
@@ -39,7 +39,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={noteTaker} alt="Note Taker"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={noteTaker} alt="Note Taker"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">Note Taker</h5>
         <p className="card-text">Javascript/Express.js/CSS/HTML</p>
@@ -48,7 +48,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={lyricalHacker} alt="Lyrcial Hackers"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={lyricalHacker} alt="Lyrcial Hackers"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">Lyrcial Hackers</h5>
         <p className="card-text">Javascript/Express.js/CSS/HTML</p>
@@ -57,7 +57,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={passwordGenerator} alt="Password Generator"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={passwordGenerator} alt="Password Generator"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">Password Generator</h5>
         <p className="card-text">Javascript/HTML</p>
@@ -66,7 +66,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={workDayScheduler} alt="Workday Scheduler"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={workDayScheduler} alt="Workday Scheduler"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">Workday Scheduler</h5>
         <p className="card-text">HTML/Javascript with local storage</p>
@@ -75,7 +75,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top rounded-top h-50" src={noteTaker} alt="Note Taker"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={noteTaker} alt="Note Taker"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
         <h5 className="card-title">Note Taker</h5>
         <p className="card-text">Javascript/Express.js/CSS/HTML</p>
