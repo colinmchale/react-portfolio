@@ -13,10 +13,10 @@ const styles = {
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light" style={styles.bgColor}>
+    <nav className="navbar navbar-expand-lg navbar-light" style={styles.bgColor}>
         <h4 style={styles.nameColor}>Colin McHale</h4>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+      <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div className="navbar-nav">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}

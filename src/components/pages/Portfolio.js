@@ -62,7 +62,7 @@ export default function Portfolio() {
         <h5 className="card-title">Password Generator</h5>
         <p className="card-text">Javascript/HTML</p>
         <a href="https://colinmchale.github.io/PasswordGenerator/" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Deployed App</a>
-        <a href="https://github.com/colinmchale/PasswordGenerator" class="card-link" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Repository</a>
+        <a href="https://github.com/colinmchale/PasswordGenerator" className="card-link" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Repository</a>
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
