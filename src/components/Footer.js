@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const styles = {
   fontColor: {
@@ -19,9 +22,9 @@ function Footer () {
         </div>
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li className="ms-3"><a className="text-muted" href="#"><svg className="bi" width="24" height="24"></svg></a></li>
-        <li className="ms-3"><a className="text-muted" href="#"><svg className="bi" width="24" height="24"></svg></a></li>
-        <li className="ms-3"><a className="text-muted" href="#"><svg className="bi" width="24" height="24"></svg></a></li>
+         <li><a className="text-muted" href="https://www.facebook.com/colin.mchale.10/" target="_blank" rel="noreferrer"><FaLinkedin style={{color: '#BA1200', fontSize: '40px'}}/></a></li>
+        <li><a className="text-muted" href="https://github.com/colinmchale" target="_blank" rel="noreferrer"><FaGithubSquare style={{color: '#BA1200', fontSize: '40px'}}/></a></li>
+        <li><a className="text-muted" href="https://www.linkedin.com/in/colin-mchale-26a091139/" target="_blank" rel="noreferrer"><FaFacebookSquare style={{color: '#BA1200', fontSize: '40px'}}/></a></li>
         </ul>
       </footer>
     </div>
@@ -29,9 +32,3 @@ function Footer () {
 }
 
 export default Footer;
-
-
-
-{/* <use xlink:href="#twitter"></use>
-<use xlink:href="#instagram"></use>
-<use xlink:href="#facebook"></use> */}
