@@ -4,6 +4,7 @@ import noteTaker from './images/NoteTaker.png';
 import lyricalHacker from './images/LyricalHackers.png';
 import passwordGenerator from './images/PasswordGenerator.png';
 import workDayScheduler from './images/WorkDayScheduler.png';
+import mathQuiz from './images/CodeQuiz.png';
 
 const styles = {
   fontColor: {
@@ -39,12 +40,12 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
-        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={noteTaker} alt="Note Taker"/>
+        <img className="card-img-top border border-bottom-0 border-primary rounded-top h-50" src={mathQuiz} alt="Math Quiz"/>
         <div className="card-body rounded-bottom h-50" style={styles.cardColor}>
-        <h5 className="card-title">Note Taker</h5>
-        <p className="card-text">Javascript/Express.js/CSS/HTML</p>
-        <a href="https://whispering-harbor-33313.herokuapp.com/" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Deployed App</a>
-        <a href="https://github.com/colinmchale/NoteTaker" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Repository</a>
+        <h5 className="card-title">Math Quiz</h5>
+        <p className="card-text">Javascript/CSS/HTML</p>
+        <a href="https://colinmchale.github.io/CodeQuiz/" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Deployed App</a>
+        <a href="https://github.com/colinmchale/CodeQuiz" target="_blank" rel="noreferrer" className="card-link" style={styles.linkColor}>Repository</a>
         </div>
       </div>
       <div className="card col-6 p-1 border-0" style={styles.cardWidth}>
