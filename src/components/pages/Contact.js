@@ -89,7 +89,7 @@ function Contact () {
   };
   return (
     <div>
-      <h1 style={styles.headerColor}>Contact Me</h1>
+      <h1 style={styles.headerColor}>How to <i>contact</i> me...</h1>
       <form>
         <div className="form-group">
           <label htmlFor="nameInput" style={styles.fontColor}>Name:</label>

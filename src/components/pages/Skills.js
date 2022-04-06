@@ -12,10 +12,10 @@ const styles = {
   }
 }
 
-export default function Resume() {
+export default function Skills() {
   return (
     <div>
-      <h1 style={styles.headerColor}>Resume</h1>
+      <h1 style={styles.headerColor}>A few of my <i>skills</i>...</h1>
       <div>
 
         <p style={styles.fontColor}>

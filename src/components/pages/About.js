@@ -17,7 +17,7 @@ const styles = {
 export default function About() {
   return (
     <div>
-      <h1 style={styles.headerColor}>About Me</h1>
+      <h1 style={styles.headerColor}>A little <i>about</i> me...</h1>
     
       <div className="d-flex flex-wrap"> 
         <div>
