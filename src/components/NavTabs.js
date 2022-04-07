@@ -34,7 +34,7 @@ const styles = {
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={{...styles.bgColor, ...styles.navFixed, ...styles.navSpot, ...styles.navWidth, ...styles.navFront}}>
+    <nav className="navbar navbar-expand-lg navbar-light shadow-lg" style={{...styles.bgColor, ...styles.navFixed, ...styles.navSpot, ...styles.navWidth, ...styles.navFront}}>
         <h3 style={{...styles.nameColor, ...styles.navLeft, ...styles.navTop}}>CM</h3>
       <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div className="navbar-nav" style={styles.navRight}>
