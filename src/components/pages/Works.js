@@ -11,13 +11,13 @@ const styles = {
     color: '#031927',
   },
   headerColor: {
-    color: '#BA1200',
+    color: '#D93041',
   },
   cardColor: {
-    background: '#508AA8'
+    background: '#3A5169'
   },
   linkColor: {
-    color: '#C8E0F4'
+    color: '#A0C5F8'
   },
   cardWidth: {
     width: '18rem'

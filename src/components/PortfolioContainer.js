@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
-// import Home from './pages/Home';
+import Home from './pages/Home';
 import Works from './pages/Works';
 import About from './pages/About';
 import Skills from './pages/Skills';
@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <div className='container mt-3'>
       {/* {renderPage()} */}
-      {/* <Home/> */}
+      <Home/>
       <About/>
       <Works/>
       <Skills/>

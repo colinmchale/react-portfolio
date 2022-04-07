@@ -6,7 +6,7 @@ const styles = {
     color: '#031927',
   },
   headerColor: {
-    color: '#BA1200',
+    color: '#D93041',
   },
   photoSize: {
     width: '20rem',

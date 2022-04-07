@@ -2,10 +2,31 @@ import React from 'react';
 
 const styles = {
   bgColor: {
-    background: '#c8e0f4',
+    background: '#A0C5F8',
   },
   nameColor: {
-    color: '#508AA8',
+    color: '#3A5169',
+  },
+  navFixed: {
+    position: "fixed"
+  },
+  navSpot: {
+    top: 0
+  },
+  navWidth: {
+    width: "100%"
+  },
+  navFront: {
+    zIndex: 2
+  },
+  navLeft: {
+    marginLeft: 15
+  },
+  navTop: {
+    paddingTop: 5
+  },
+  navRight: {
+    marginRight: 15
   }
 }
 
@@ -13,10 +34,19 @@ const styles = {
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light" style={styles.bgColor}>
-        <h4 style={styles.nameColor}>Colin McHale</h4>
+    <nav className="navbar navbar-expand-lg navbar-light" style={{...styles.bgColor, ...styles.navFixed, ...styles.navSpot, ...styles.navWidth, ...styles.navFront}}>
+        <h3 style={{...styles.nameColor, ...styles.navLeft, ...styles.navTop}}>CM</h3>
       <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div className="navbar-nav">
+        <div className="navbar-nav" style={styles.navRight}>
+        <a
+          href="#home"
+          onClick={() => handlePageChange('Home')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'Home' ? 'nav-item nav-link active' : 'nav-item nav-link'}
+        >
+          Home
+        </a>
         <a
           href="#about"
           onClick={() => handlePageChange('About')}

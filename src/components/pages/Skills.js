@@ -5,10 +5,10 @@ const styles = {
     color: '#031927',
   },
   headerColor: {
-    color: '#BA1200',
+    color: '#D93041',
   }, 
   linkColor: {
-    color: '#508AA8',
+    color: '#3A5169',
   }
 }
 
