@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <div className='container mt-3'>
       {/* {renderPage()} */}
-      <Home/>
+      <Home style={{height: "25%"}}/>
       <About/>
       <Works/>
       <Skills/>

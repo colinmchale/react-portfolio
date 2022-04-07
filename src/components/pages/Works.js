@@ -26,7 +26,7 @@ const styles = {
 
 export default function Works() {
   return (
-    <div>
+    <div style={{marginTop: 40}}>
       <h1 style={styles.headerColor}>Some of my <i>works</i>...</h1>
 
     <div className='d-flex flex-wrap text-white'>
