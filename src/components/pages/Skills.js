@@ -14,7 +14,7 @@ const styles = {
 
 export default function Skills() {
   return (
-    <div style={{marginTop: 40}}>
+    <div style={{marginTop: 60}}>
       <h1 style={styles.headerColor}>A few of my <i>skills</i>...</h1>
       <div>
 

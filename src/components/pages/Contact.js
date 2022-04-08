@@ -88,7 +88,7 @@ function Contact () {
     setMessageError('');
   };
   return (
-    <div style={{marginTop: 40}}>
+    <div style={{marginTop: 60, marginBottom: 30}}>
       <h1 style={styles.headerColor}>How to <i>contact</i> me...</h1>
       <form>
         <div className="form-group">
