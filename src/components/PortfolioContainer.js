@@ -25,15 +25,15 @@ export default function PortfolioContainer() {
   // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={{background: '#3A5169'}}>
       {/* Here we are calling the renderPage method which will return a component  */}
-      <div className='container mt-3 p-2'>
+      <div className='container mt-3 p-5'>
       {/* {renderPage()} */}
-      <Home />
-      <About/>
-      <Works/>
-      <Skills/>
-      <Contact/>
+      <Home id='home'/>
+      <About id='about'/>
+      <Works id='works'/>
+      <Skills id='skills'/>
+      <Contact id='contact'/>
       </div>
       <Footer/>
     </div>

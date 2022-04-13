@@ -5,7 +5,7 @@ const styles = {
     background: '#A0C5F8',
   },
   nameColor: {
-    color: '#3A5169',
+    color: '#FFFFFF',
   },
   navFixed: {
     position: "fixed"

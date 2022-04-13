@@ -4,10 +4,10 @@ import './About.css';
 
 const styles = {
   fontColor: {
-    color: '#3A5169',
+    color: '#FFFFFF',
   },
   headerColor: {
-    color: '#D93041',
+    color: '#F96900',
   },
   photoSize: {
     width: '20rem',
@@ -21,7 +21,7 @@ export default function About() {
       <h1 style={styles.headerColor}>A little <i>about</i> me...</h1>
     
       <div className="d-flex"> 
-        <div>
+        <div className="m-3">
           <p style={styles.fontColor}>
             I am a 24 year old professional looking to start a career in web development. I graduated from Southern Methodist University in May of 2019 with a B.S. in Economics. Since then I spent time working in Wholesale Property Insurance at Amwins in Dallas, TX. I currently live in Austin, TX.
           </p>

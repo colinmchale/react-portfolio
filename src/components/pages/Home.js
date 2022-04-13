@@ -5,13 +5,13 @@ const styles = {
     color: '#031927',
   },
   headerColor: {
-    color: '#D93041',
+    color: '#F96900',
   }, 
   linkColor: {
     color: '#3A5169',
   },
   bgColor: {
-    background: 'radial-gradient(closest-side, #3A5169, #D93041, #FFFFFF)'
+    background: 'radial-gradient(closest-side, #FFFFFF, #F96900, #3A5169)'
   },
   marginTop: {
     marginTop: 100
@@ -33,9 +33,9 @@ const styles = {
 export default function Home() {
   return (
     <div className="home" style={{...styles.bgColor, ...styles.marginTop, ...styles.paddingTop, ...styles.paddingBottom, ...styles.paddingLeft, ...styles.paddingRight}}>
-      <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#FFFFFF', justifyContent: "center", marginBottom: -50}}>Colin</h1>
-      <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#FFFFFF', justifyContent: "center", marginTop: -50}}>McHale</h1>
-      <h2 className={"d-flex"} style={{justifyContent: "center", color: '#A0C5F8', marginTop: -20}}>Full Stack Web Developer</h2>
+      <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#3A5169', justifyContent: "center", marginBottom: -50}}>Colin</h1>
+      <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#3A5169', justifyContent: "center", marginTop: -50}}>McHale</h1>
+      <h2 className={"d-flex"} style={{justifyContent: "center", color: '#FFFFFF', marginTop: -20}}>Full Stack Web Developer</h2>
     </div>
   );
 }

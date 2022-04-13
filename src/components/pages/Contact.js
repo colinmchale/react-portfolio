@@ -3,13 +3,13 @@ import { validateEmail } from '../../utils/helpers';
 
 const styles = {
   fontColor: {
-    color: '#031927',
+    color: '#A0C5F8',
   },
   headerColor: {
-    color: '#D93041',
+    color: '#F96900',
   },
   buttonColor: {
-    background: '#D93041'
+    background: '#F96900'
   }
 }
 
