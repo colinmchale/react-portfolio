@@ -25,7 +25,7 @@ const styles = {
 
 export default function Skills() {
   return (
-    <div style={{marginTop: 60}}>
+    <div style={{marginTop: 60}} id="skills">
       <h1 style={styles.headerColor}>A few of my <i>skills</i>...</h1>
       {/* <div> */}
 
@@ -36,25 +36,25 @@ export default function Skills() {
       </div> */}
 
       <div className='m-3 d-flex flex-wrap justify-content-center'>
-        <ul>
-        <div>
-          <FaHtml5 style={{color: '#A0C5F8', fontSize: '60px'}}/>
+        <ul className='d-flex flex-wrap'>
+        <div style={{ margin: 20 }}>
+          <FaHtml5 style={{color: '#A0C5F8', fontSize: '60px' }}/>
           <p style={{color: '#FFFFFF'}}>HTML5</p>
         </div>
 
-        <div>
+        <div style={{ margin: 20 }}>
           <FaCss3Alt style={{color: '#A0C5F8', fontSize: '60px'}}/>
           <p style={{color: '#FFFFFF'}}>CSS3</p>
         </div>
 
-        <div><SiJavascript style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Javascript</p></div>
-        <div><FaPython style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Python</p></div>
-        <div><FaReact style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>React JS</p></div>
-        <div><FaNode style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Node.js</p></div>
-        <div><SiExpress style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Express.js</p></div>
-        <div><SiHandlebarsdotjs style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Handlebars</p></div>
-        <div><SiMysql style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>MySQL</p></div>
-        <div><SiMongodb style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>MongoDB</p></div>
+        <div style={{ margin: 20 }}><SiJavascript style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Javascript</p></div>
+        <div style={{ margin: 20 }}><FaPython style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Python</p></div>
+        <div style={{ margin: 20 }}><FaReact style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>React JS</p></div>
+        <div style={{ margin: 20 }}><FaNode style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Node.js</p></div>
+        <div style={{ margin: 20 }}><SiExpress style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Express.js</p></div>
+        <div style={{ margin: 20 }}><SiHandlebarsdotjs style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>Handlebars</p></div>
+        <div style={{ margin: 20 }}><SiMysql style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>MySQL</p></div>
+        <div style={{ margin: 20 }}><SiMongodb style={{color: '#A0C5F8', fontSize: '60px'}}/><p style={{color: '#FFFFFF'}}>MongoDB</p></div>
         </ul>
       </div>
     </div>

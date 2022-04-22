@@ -32,7 +32,7 @@ const styles = {
 
 export default function Home() {
   return (
-    <div className="home" style={{...styles.bgColor, ...styles.marginTop, ...styles.paddingTop, ...styles.paddingBottom, ...styles.paddingLeft, ...styles.paddingRight}}>
+    <div className="home" style={{...styles.bgColor, ...styles.marginTop, ...styles.paddingTop, ...styles.paddingBottom, ...styles.paddingLeft, ...styles.paddingRight}} id="home">
       <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#3A5169', justifyContent: "center", marginBottom: -50}}>Colin</h1>
       <h1 className={"d-flex"} style={{fontSize: "1000%", color: '#3A5169', justifyContent: "center", marginTop: -50}}>McHale</h1>
       <h2 className={"d-flex"} style={{justifyContent: "center", color: '#FFFFFF', marginTop: -20}}>Full Stack Web Developer</h2>

@@ -17,7 +17,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div style={{marginTop: 120}}>
+    <div style={{marginTop: 120}} id="about">
       <h1 style={styles.headerColor}>A little <i>about</i> me...</h1>
     
       <div className="d-flex"> 

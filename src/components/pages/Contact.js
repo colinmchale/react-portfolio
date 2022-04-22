@@ -10,103 +10,58 @@ const styles = {
   },
   buttonColor: {
     background: '#F96900'
+  },
+  margin: {
+    margin: 10
   }
 }
 
 function Contact () {
 
-  const [nameInput, setNameInput] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [nameError, setNameError] = useState('');
-  const [emailError, setEmailError] = useState('');
-  const [messageError, setMessageError] = useState('');
-
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
-    const inputType = target.id;
-    const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    if (inputType === 'nameInput') {
-      setNameInput(inputValue);
-    } else if (inputType === 'emailInput') {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-
-    if (!nameInput) {
-      setNameError('This field is required');
-    } else {
-      setNameError('');
-    }
-
-    if (!message) {
-      setMessageError('This field is required');
-    } else {
-      setMessageError('');
-    }
-
-    if (!email) {
-      setEmailError('This field is required');
-    } else {
-      setEmailError('');
-    }
-  }
-
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+  const [status, setStatus] = useState("Submit");
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus("Sending...");
+    const { name, email, subject, message } = e.target.elements;
+    let content = {
+      name: name.value,
+      email: email.value,
+      subject: subject.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:3000/react-portfolio", {
+      method: "POST",
+      headers: {
+        "Content-Type" : "application/json;charset=utf-8"
+      },
+      body: JSON.stringify(content)
+    });
+    setStatus("Submit");
+    let result = await response.json();
+  }
+ 
 
-    
-    if (!nameInput) {
-      setNameError('This field is required');
-    }
-    if (!message) {
-      setMessageError('This field is required');
-    }
-    if (!email) {
-      setEmailError('This field is required');
-      return;
-    }
-    if (!validateEmail(email)) {
-      setEmailError('Please enter a valid email');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    }
-
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setNameInput('');
-    setEmail('');
-    setMessage('');
-    setEmailError('');
-    setNameError('');
-    setMessageError('');
-  };
   return (
-    <div style={{marginTop: 60, marginBottom: 30}}>
+    <div style={{marginTop: 30, marginBottom: 30}} id="contact">
       <h1 style={styles.headerColor}>How to <i>contact</i> me...</h1>
-      <form>
-        <div className="form-group">
-          <label htmlFor="nameInput" style={styles.fontColor}>Name:</label>
-          <input type="name" onChange={handleInputChange} className="form-control" id="nameInput" placeholder="name" style={styles.fontColor}/>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group" style={styles.margin}>
+          <label htmlFor="name" style={styles.fontColor}>Name:</label>
+          <input type="text" className="form-control" id="name" placeholder="name" style={styles.fontColor}/>
         </div>
-        <div className='text-danger'>{nameError}</div>
-        <div className="form-group">
-          <label htmlFor="emailInput" style={styles.fontColor}>Email Address:</label>
-          <input type="email" onChange={handleInputChange} className="form-control" id="emailInput" placeholder="email@example.com" style={styles.fontColor}/>
+        <div className="form-group" style={styles.margin}>
+          <label htmlFor="email" style={styles.fontColor}>Email Address:</label>
+          <input type="email" className="form-control" id="email" placeholder="email@example.com" style={styles.fontColor}/>
         </div>
-        <div className='text-danger'>{emailError}</div>
-        <div className="form-group">
+        <div className="form-group" style={styles.margin}>
+          <label htmlFor="subject" style={styles.fontColor}>Subject (optional):</label>
+          <input type="text" className="form-control" id="subject" placeholder="subject" style={styles.fontColor}/>
+        </div>
+        <div className="form-group" style={styles.margin}>
           <label htmlFor="message" style={styles.fontColor}>Message:</label>
-          <textarea className="form-control" onChange={handleInputChange} id="messageInput" rows="3" style={styles.fontColor}></textarea>
+          <textarea className="form-control" id="message" rows="3" style={styles.fontColor}></textarea>
         </div>
-        <div className='text-danger'>{messageError}</div>
-        <button type="submit" className="btn text-white mt-2" onClick={handleFormSubmit} style={styles.buttonColor}>Submit</button>
+        <button type="submit" className="btn text-white mt-2" style={{...styles.buttonColor, ...styles.margin}}>Submit</button>
       </form>
     </div>
   );

@@ -29,11 +29,11 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <div className='container mt-3 p-5'>
       {/* {renderPage()} */}
-      <Home id='home'/>
-      <About id='about'/>
-      <Works id='works'/>
-      <Skills id='skills'/>
-      <Contact id='contact'/>
+      <Home/>
+      <About/>
+      <Works/>
+      <Skills/>
+      <Contact/>
       </div>
       <Footer/>
     </div>
