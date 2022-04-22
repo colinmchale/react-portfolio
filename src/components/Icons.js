@@ -15,7 +15,7 @@ const styles = {
 
 function Icons () {
     return(
-    <div style={{position: "fixed", bottom: 100}}>
+    <div style={{position: "fixed", bottom: 70}}>
       <ul className="list-unstyled d-flex" style={{flexDirection: 'column', marginLeft: 15}}>
         <li><a className="text-muted" href="https://www.linkedin.com/in/colin-mchale-26a091139/" target="_blank" rel="noreferrer"><FaLinkedin style={{color: '#F96900', fontSize: '40px'}}/></a></li>
         <li><a className="text-muted" href="https://github.com/colinmchale" target="_blank" rel="noreferrer"><FaGithubSquare style={{color: '#F96900', fontSize: '40px'}}/></a></li>

@@ -42,7 +42,7 @@ function Contact () {
  
 
   return (
-    <div style={{marginTop: 30, marginBottom: 30}} id="contact">
+    <div style={{marginTop: 30, marginBottom: 20}} id="contact">
       <h1 style={styles.headerColor}>How to <i>contact</i> me...</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group" style={styles.margin}>
