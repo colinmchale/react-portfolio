@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from './Footer';
 import Home from './pages/Home';
 import Works from './pages/Works';

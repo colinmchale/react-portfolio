@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+// import { FaFacebookSquare } from "react-icons/fa";
+// import { FaGithubSquare } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa";
 
 const styles = {
   fontColor: {
@@ -19,7 +19,7 @@ const styles = {
 function Footer () {
     return(
     <footer className="site-footer" style={{background: '#A0C5F8'}}>
-      <div className="d-flex flex-wrap justify-content-center align-items-center py-4 border-top">
+      <div className="d-flex flex-wrap justify-content-center align-items-center py-4">
         <div>
          <span style={styles.fontColor}>© 2022 Colin McHale</span>
         </div>
