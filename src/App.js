@@ -1,5 +1,6 @@
 import React from "react";
 import NavTabs from './components/NavTabs';
+import MobileNav from './components/MobileNav';
 import Icons from './components/Icons';
 import PortfolioContainer from "./components/PortfolioContainer";
 import MobileContainer from "./components/MobileContainer";
@@ -26,7 +27,7 @@ const App = () => {
     return(
     <div>
         {/* We are passing the currentPage from state and the function to update it */}
-        <NavTabs/>
+        <MobileNav/>
         {/* currentPage={currentPage} handlePageChange={handlePageChange} */}
         <MobileContainer/>
     </div>
