@@ -23,7 +23,7 @@ const styles = {
     marginLeft: 15
   },
   navTop: {
-    paddingTop: 5
+    paddingTop: 10
   },
   navRight: {
     marginRight: 15
@@ -32,7 +32,7 @@ const styles = {
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light shadow shadow-intensity-xl" style={{...styles.bgColor, ...styles.navFixed, ...styles.navSpot, ...styles.navWidth, ...styles.navFront}}>
         <h3 style={{...styles.nameColor, ...styles.navLeft, ...styles.navTop}}>CM</h3>
@@ -57,7 +57,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Works`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Works' ? 'nav-item nav-link active' : 'nav-item nav-link'}
         >
-          Works
+          Work
         </a>
         <a
           href="#skills"

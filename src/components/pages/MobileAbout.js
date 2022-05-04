@@ -1,5 +1,5 @@
 import React from 'react';
-import bioPhoto from './images/IMG_0048.jpg';
+import bioPhoto from './images/IMG_2865.jpg';
 import './About.css';
 
 const styles = {

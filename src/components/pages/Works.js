@@ -28,7 +28,7 @@ const styles = {
 export default function Works() {
   return (
     <div style={{marginTop: 60}} id="works">
-      <h1 style={styles.headerColor}>Some of my <i>works</i>...</h1>
+      <h1 style={styles.headerColor}>Some of my <i>work</i>...</h1>
 
     <div className='mt-4 d-flex flex-wrap text-white justify-content-center'>
     <div className="card col-6 p-1 m-2 border-0 cardGlow" style={styles.cardWidth}>
