@@ -1,4 +1,5 @@
 import React from "react";
+import Dropdown from "react-bootstrap/Dropdown";
 
 const styles = {
   bgColor: {
@@ -50,46 +51,20 @@ function NavTabs() {
       <h3 style={{ ...styles.nameColor, ...styles.navLeft, ...styles.navTop }}>
         CM
       </h3>
-      <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style={styles.navRight}>
-    <span className="navbar-toggler-icon"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown" aria-expanded="false">
-        <ul className="nav navbar-nav">
-        <li className="nav-item">
-        <a
-          href="#home"
-          className='nav-link'
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about" className='nav-link'
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#works" className='nav-link'>
-          Work
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#skills" className='nav-link'>
-          Skills
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact" className='nav-link'>
-          Contact
-        </a>
-      </li>
-      </ul>
-        </div>
+
+      <Dropdown style={styles.navRight}>
+        <Dropdown.Toggle variant="light" id="dropdown-basic">
+          Menu
+        </Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#home">Home</Dropdown.Item>
+          <Dropdown.Item href="#about">About</Dropdown.Item>
+          <Dropdown.Item href="#works">Work</Dropdown.Item>
+          <Dropdown.Item href="#skills">Skills</Dropdown.Item>
+          <Dropdown.Item href="#contact">Contact</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown>
     </nav>
   );
 }
