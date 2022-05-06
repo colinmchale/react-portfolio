@@ -3,15 +3,6 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-const styles = {
-  fontColor: {
-    color: "#031927",
-  },
-  linkColor: {
-    color: "#F96900",
-  },
-};
-
 function Icons() {
   return (
     <div style={{ position: "fixed", bottom: 70 }}>

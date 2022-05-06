@@ -34,7 +34,7 @@ export default function About() {
             Wholesale Property Insurance at Amwins in Dallas, TX. I currently
             live in Austin, TX.
           </p>
-          <div>
+          <div className="d-flex" style={{ justifyContent: "center" }}>
             <img
               src={bioPhoto}
               alt="Colin McHale"
