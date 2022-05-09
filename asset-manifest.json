@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.5ffe6d66.css",
-    "main.js": "/react-portfolio/static/js/main.e36d4f49.js",
-    "static/media/IMG_0048.jpg": "/react-portfolio/static/media/IMG_0048.253e047860f6b4c1cc5d.jpg",
-    "static/media/LyricalHackers.png": "/react-portfolio/static/media/LyricalHackers.5daa1d0ff2cd52c33a6d.png",
-    "static/media/CodeQuiz.png": "/react-portfolio/static/media/CodeQuiz.523a89c34a04e3c0f593.png",
-    "static/media/WorkDayScheduler.png": "/react-portfolio/static/media/WorkDayScheduler.af5b4c3f23cbd7a37d28.png",
-    "static/media/LookBook.png": "/react-portfolio/static/media/LookBook.d007cf6c888e7530eb6d.png",
-    "static/media/PasswordGenerator.png": "/react-portfolio/static/media/PasswordGenerator.b16d0604e513e962b27c.png",
-    "static/media/NoteTaker.png": "/react-portfolio/static/media/NoteTaker.994c849ae38b58026ef3.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.5ffe6d66.css.map": "/react-portfolio/static/css/main.5ffe6d66.css.map",
-    "main.e36d4f49.js.map": "/react-portfolio/static/js/main.e36d4f49.js.map"
+    "main.css": "/react-portfolio.git/static/css/main.95fa5853.css",
+    "main.js": "/react-portfolio.git/static/js/main.b996053f.js",
+    "static/media/IMG_2865.jpg": "/react-portfolio.git/static/media/IMG_2865.40976096ee72e28a2dd7.jpg",
+    "static/media/LyricalHackers.png": "/react-portfolio.git/static/media/LyricalHackers.5daa1d0ff2cd52c33a6d.png",
+    "static/media/CodeQuiz.png": "/react-portfolio.git/static/media/CodeQuiz.523a89c34a04e3c0f593.png",
+    "static/media/WorkDayScheduler.png": "/react-portfolio.git/static/media/WorkDayScheduler.af5b4c3f23cbd7a37d28.png",
+    "static/media/LookBook.png": "/react-portfolio.git/static/media/LookBook.d007cf6c888e7530eb6d.png",
+    "static/media/PasswordGenerator.png": "/react-portfolio.git/static/media/PasswordGenerator.b16d0604e513e962b27c.png",
+    "static/media/NoteTaker.png": "/react-portfolio.git/static/media/NoteTaker.994c849ae38b58026ef3.png",
+    "index.html": "/react-portfolio.git/index.html",
+    "main.95fa5853.css.map": "/react-portfolio.git/static/css/main.95fa5853.css.map",
+    "main.b996053f.js.map": "/react-portfolio.git/static/js/main.b996053f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ffe6d66.css",
-    "static/js/main.e36d4f49.js"
+    "static/css/main.95fa5853.css",
+    "static/js/main.b996053f.js"
   ]
 }
