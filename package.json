@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://git.heroku.com/colinmchaleportfolio.git",
+  "homepage": "https://colinmchale.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -13,6 +13,7 @@
     "express": "^4.17.3",
     "gh-pages": "^3.2.3",
     "nodemailer": "^6.7.3",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-bootstrap": "^2.3.1",
     "react-bootstrap-dropdown": "^0.3.0",
