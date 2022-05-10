@@ -6,10 +6,10 @@ import PortfolioContainer from "./components/PortfolioContainer";
 import MobileContainer from "./components/MobileContainer";
 
 const App = () => {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 760);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 769);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 760);
+    setDesktop(window.innerWidth > 769);
   };
 
   useEffect(() => {

@@ -10,7 +10,7 @@ export default function PortfolioContainer() {
   return (
     <div style={{ background: "#3A5169" }}>
       {/* Here we are calling the renderPage method which will return a component  */}
-      <div className="container mt-3 p-5">
+      <div className="container p-5">
         {/* {renderPage()} */}
         <MobileHome />
         <MobileAbout />

@@ -46,10 +46,10 @@ export default function Home() {
       <h1
         className={"d-flex"}
         style={{
-          fontSize: "700%",
+          fontSize: "500%",
           color: "#F96900",
           justifyContent: "center",
-          marginBottom: -40,
+          marginBottom: -25,
         }}
       >
         Colin
@@ -57,10 +57,10 @@ export default function Home() {
       <h1
         className={"d-flex"}
         style={{
-          fontSize: "700%",
+          fontSize: "500%",
           color: "#F96900",
           justifyContent: "center",
-          marginTop: -40,
+          marginTop: -25,
         }}
       >
         McHale
