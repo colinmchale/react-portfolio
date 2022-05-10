@@ -1,5 +1,5 @@
 import React from "react";
-// import Dropdown from "react-bootstrap-dropdown";
+import Dropdown from "react-bootstrap-dropdown";
 
 const styles = {
   bgColor: {
@@ -52,7 +52,7 @@ function NavTabs() {
         CM
       </h3>
 
-      {/* <Dropdown style={styles.navRight}>
+      <Dropdown style={styles.navRight}>
         <Dropdown.Toggle variant="light" id="dropdown-basic">
           Menu
         </Dropdown.Toggle>
@@ -64,7 +64,7 @@ function NavTabs() {
           <Dropdown.Item href="#skills">Skills</Dropdown.Item>
           <Dropdown.Item href="#contact">Contact</Dropdown.Item>
         </Dropdown.Menu>
-      </Dropdown> */}
+      </Dropdown>
     </nav>
   );
 }
