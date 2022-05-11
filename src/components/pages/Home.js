@@ -47,7 +47,7 @@ export default function Home() {
       <h1
         className={"d-flex"}
         style={{
-          fontSize: "1000%",
+          fontSize: "800%",
           color: "#3A5169",
           justifyContent: "center",
           marginBottom: -50,
@@ -58,7 +58,7 @@ export default function Home() {
       <h1
         className={"d-flex"}
         style={{
-          fontSize: "1000%",
+          fontSize: "800%",
           color: "#3A5169",
           justifyContent: "center",
           marginTop: -50,
