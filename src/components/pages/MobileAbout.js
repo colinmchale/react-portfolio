@@ -50,7 +50,7 @@ export default function About() {
             React.js. I am passionate about designing and executing applications
             that give users the best possible experience. I recently worked in a
             team of three developing a MERN app that acts as a
-            consumer-to-consumer auction site, helping users their products and
+            consumer-to-consumer auction site, helping users monitor their products and
             bids. I'm excited to leverage my skills as part of a fast-paced,
             quality-driven environment where I can learn and excel with those
             around me.
