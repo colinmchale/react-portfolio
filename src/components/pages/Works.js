@@ -21,7 +21,7 @@ const styles = {
     color: "#A0C5F8",
   },
   cardWidth: {
-    width: "24rem",
+    width: "20rem",
   },
 };
 
