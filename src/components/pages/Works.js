@@ -3,7 +3,7 @@ import lookBook from "./images/LookBook.png";
 import textEditor from "./images/TextEditor.png";
 import paddle from "./images/Paddle.png";
 import weatherDashboard from "./images/WeatherDashboard.png";
-import workDayScheduler from "./images/WorkDayScheduler.png";
+import whatchaWatching from "./images/WhatchaWatching.png";
 import mathQuiz from "./images/CodeQuiz.png";
 import "./Works.css";
 
@@ -39,8 +39,8 @@ export default function Works() {
     >
       <img
         className="card-img-top rounded-top h-50"
-        src={workDayScheduler}
-        alt="Workday Scheduler"
+        src={whatchaWatching}
+        alt="Whatcha Watching"
       />
       <div
         className="card-body rounded-bottom h-50"
@@ -48,10 +48,10 @@ export default function Works() {
       >
         <h5 className="card-title">Whatcha Watching</h5>
         <p className="card-text">
-          Provides a randomly selected movie or TV series based on the user's search parameters. Utilizes Bootstrap and React.
+          Provides a randomly selected movie or TV series based on the user's search parameters. Utilizes React and Materialize.
           </p>
         <a
-          href="https://colinmchale.github.io/WorkDayScheduler/"
+          href="https://colinmchale.github.io/whatcha-watching/"
           target="_blank"
           rel="noreferrer"
           className="card-link"
@@ -60,7 +60,7 @@ export default function Works() {
           Live
         </a>
         <a
-          href="https://github.com/colinmchale/WorkDayScheduler"
+          href="https://github.com/colinmchale/whatcha-watching"
           target="_blank"
           rel="noreferrer"
           className="card-link"
