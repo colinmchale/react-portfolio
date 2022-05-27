@@ -159,7 +159,7 @@ export default function Works() {
           >
             <h5 className="card-title">Weather Dashboard</h5>
             <p className="card-text">
-              A weather app allowing users to search a city and see the current forecat and the following 5 days. Built with jQuery and Bootstrap.
+              A weather app allowing users to search a city and see the current forecast and the following 5 days. Built with jQuery and Bootstrap.
               </p>
             <a
               href="https://colinmchale.github.io/WeatherDashboard/"
