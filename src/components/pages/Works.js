@@ -4,7 +4,7 @@ import textEditor from "./images/TextEditor.png";
 import paddle from "./images/Paddle.png";
 import weatherDashboard from "./images/WeatherDashboard.png";
 import whatchaWatching from "./images/WhatchaWatching.png";
-import mathQuiz from "./images/CodeQuiz.png";
+import teamProfile from "./images/TeamProfile.png";
 import "./Works.css";
 
 const styles = {
@@ -224,18 +224,18 @@ export default function Works() {
         >
           <img
             className="card-img-top rounded-top h-50"
-            src={mathQuiz}
-            alt="Math Quiz"
+            src={teamProfile}
+            alt="Team Generator"
           />
           <div
             className="card-body rounded-bottom h-50"
             style={styles.cardColor}
           >
-            <h5 className="card-title">Math Quiz</h5>
+            <h5 className="card-title">Team Generator</h5>
             <p className="card-text">
-              Timed math game that saves a users final score and adds it to the highscore list.
+              Command line apllication utilizing Node.js and Inquirer to render an html page displaying a project team's members and their info.
               </p>
-            <a
+            {/* <a
               href="https://colinmchale.github.io/CodeQuiz/"
               target="_blank"
               rel="noreferrer"
@@ -243,9 +243,9 @@ export default function Works() {
               style={styles.linkColor}
             >
               Live
-            </a>
+            </a> */}
             <a
-              href="https://github.com/colinmchale/CodeQuiz"
+              href="https://github.com/colinmchale/TeamProfileGenerator"
               target="_blank"
               rel="noreferrer"
               className="card-link"
