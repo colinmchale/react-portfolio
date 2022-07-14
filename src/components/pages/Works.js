@@ -233,7 +233,7 @@ export default function Works() {
           >
             <h5 className="card-title">Team Generator</h5>
             <p className="card-text">
-              Command line apllication utilizing Node.js and Inquirer to render an html page displaying a project team's members and their info.
+              Command line application utilizing Node.js and Inquirer to render an html page displaying a project team's members and their info.
               </p>
             {/* <a
               href="https://colinmchale.github.io/CodeQuiz/"
