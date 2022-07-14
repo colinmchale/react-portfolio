@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# React Portfolio
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description  
+My website portfolio was built to showcase my skills and recent projects I have completed. 
+At the top of the page there is a nav bar with quick links to different sections of the website. The site also contains links to my social pages including LinkedIn, Github, And Facebook (icons are floating on the bottom left if wide screen, at the very bottom of the website if small screen). 
+The first section of the site is a welcome page that includes my name and title in a bright, styled font. There are two different designs of the welcome section, one for wide screen and one for small screen. Following is a bio and picture for those to learn a little more about me. The next section is the project section which will include 6 projects with a screenshot and short description of the application (all containing links to the live application and repository) utilizing different coding languages. The final section is a contact form in which users will be able to fill out a few inputs such as name, email, subject, and a message that will be transformed into an email and sent directly to my personal email.
 
-## Available Scripts
+## Table of Contents  
+[Description](#description)     
+[Screenshots](#screenshots)  
+[License](#license)  
+[Tests](#tests)  
+[Questions](#questions)  
 
-In the project directory, you can run:
+## Screenshots 
+![Screenshot One of App](./src/components/pages/images/Portfolio1.png)
+![Screenshot Two of App](./src/components/pages/images/Portfolio2.png)
+![Screenshot Three of App](./src/components/pages/images/Portfolio3.png)
+[Link to Deployed Site](https://colinmchale.github.io/react-portfolio/)
+Created using Javascript and React.
 
-### `npm start`
+## License 
+MPL 2.0
+[Link to License](https://www.mozilla.org/en-US/MPL/2.0/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tests  
+Feel free to click on any of the links to repositories and applications to test that they work and the applications are running smoothly. Send me an email using the contact form and I will try to reply to as many as possible!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+Link to github: [Click Here](https://github.com/colinmchale)  
+Please submit any additional questions you may have in an email to colin.mchale22@gmail.com
